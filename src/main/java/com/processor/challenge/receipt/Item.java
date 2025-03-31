@@ -6,6 +6,9 @@ public class Item {
     private String shortDescription;
     private String price;
 
+    /**
+     * Empty constructor
+     */
     public Item() {}
 
     public Item(String shortDescription, String price) {

@@ -12,8 +12,19 @@ public class Receipt {
     private String largeLanguageModel;
     private String total;
 
+    /**
+     * Empty constructor
+     */
     public Receipt() {}
 
+    /**
+     * Constructor with no LLM
+     * @param retailer
+     * @param purchaseDate
+     * @param purchaseTime
+     * @param items
+     * @param total
+     */
     public Receipt(String retailer, String purchaseDate, String purchaseTime, List<Item> items, String total) {
         this.retailer = retailer;
         this.purchaseDate = purchaseDate;
@@ -23,6 +34,15 @@ public class Receipt {
         this.total = total;
     }
 
+    /**
+     * Constructor with LLM
+     * @param retailer
+     * @param purchaseDate
+     * @param purchaseTime
+     * @param items
+     * @param llm
+     * @param total
+     */
     public Receipt(String retailer, String purchaseDate, String purchaseTime, List<Item> items, String llm, String total) {
         this.retailer = retailer;
         this.purchaseDate = purchaseDate;
@@ -32,6 +52,7 @@ public class Receipt {
         this.total = total;
     }
 
+    /* Getters */
     public String getRetailer() { 
         return retailer;
     }
