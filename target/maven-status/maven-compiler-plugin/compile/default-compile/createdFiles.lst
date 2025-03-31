@@ -1,0 +1,5 @@
+com/processor/challenge/receipt/ReceiptProcessor.class
+com/processor/challenge/ChallengeApplication.class
+com/processor/challenge/receipt/ReceiptController.class
+com/processor/challenge/receipt/Item.class
+com/processor/challenge/receipt/Receipt.class
